@@ -14,6 +14,10 @@
 		61A1C6D92B5B5F3C0037830D /* Percentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A1C6D72B5B5F3C0037830D /* Percentage.swift */; };
 		61A1C6DB2B5B64AF0037830D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 61A1C6DA2B5B64AF0037830D /* .gitignore */; };
 		61A1C6DE2B5B66990037830D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 61A1C6DD2B5B66990037830D /* LICENSE */; };
+		61A1C6E02B5B67870037830D /* NutrionalLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A1C6DF2B5B67870037830D /* NutrionalLabel.swift */; };
+		61A1C6E12B5B67870037830D /* NutrionalLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A1C6DF2B5B67870037830D /* NutrionalLabel.swift */; };
+		61A1C6E32B5B67B70037830D /* NutrionalLabelField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A1C6E22B5B67B70037830D /* NutrionalLabelField.swift */; };
+		61A1C6E42B5B67B70037830D /* NutrionalLabelField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A1C6E22B5B67B70037830D /* NutrionalLabelField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,8 @@
 		61A1C6DA2B5B64AF0037830D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		61A1C6DC2B5B64F30037830D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		61A1C6DD2B5B66990037830D /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		61A1C6DF2B5B67870037830D /* NutrionalLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrionalLabel.swift; sourceTree = "<group>"; };
+		61A1C6E22B5B67B70037830D /* NutrionalLabelField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrionalLabelField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				61A1C6C12B5B5E930037830D /* NutrionalInfo.swift */,
+				61A1C6DF2B5B67870037830D /* NutrionalLabel.swift */,
+				61A1C6E22B5B67B70037830D /* NutrionalLabelField.swift */,
 			);
 			path = NutrionalInfo;
 			sourceTree = "<group>";
@@ -206,7 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A1C6E32B5B67B70037830D /* NutrionalLabelField.swift in Sources */,
 				61A1C6C22B5B5E930037830D /* NutrionalInfo.swift in Sources */,
+				61A1C6E02B5B67870037830D /* NutrionalLabel.swift in Sources */,
 				61A1C6D82B5B5F3C0037830D /* Percentage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,7 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A1C6E42B5B67B70037830D /* NutrionalLabelField.swift in Sources */,
 				61A1C6D02B5B5F120037830D /* ArithmeticTests.swift in Sources */,
+				61A1C6E12B5B67870037830D /* NutrionalLabel.swift in Sources */,
 				61A1C6D92B5B5F3C0037830D /* Percentage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
