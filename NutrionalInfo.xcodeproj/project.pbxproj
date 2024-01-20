@@ -18,6 +18,8 @@
 		61A1C6E12B5B67870037830D /* NutrionalLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A1C6DF2B5B67870037830D /* NutrionalLabel.swift */; };
 		61A1C6E32B5B67B70037830D /* NutrionalLabelField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A1C6E22B5B67B70037830D /* NutrionalLabelField.swift */; };
 		61A1C6E42B5B67B70037830D /* NutrionalLabelField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A1C6E22B5B67B70037830D /* NutrionalLabelField.swift */; };
+		61A1C6E62B5B68090037830D /* Gram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A1C6E52B5B68090037830D /* Gram.swift */; };
+		61A1C6E72B5B68090037830D /* Gram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A1C6E52B5B68090037830D /* Gram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,7 @@
 		61A1C6DD2B5B66990037830D /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		61A1C6DF2B5B67870037830D /* NutrionalLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrionalLabel.swift; sourceTree = "<group>"; };
 		61A1C6E22B5B67B70037830D /* NutrionalLabelField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrionalLabelField.swift; sourceTree = "<group>"; };
+		61A1C6E52B5B68090037830D /* Gram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gram.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				61A1C6D72B5B5F3C0037830D /* Percentage.swift */,
+				61A1C6E52B5B68090037830D /* Gram.swift */,
 			);
 			path = Arithmetic;
 			sourceTree = "<group>";
@@ -218,6 +222,7 @@
 				61A1C6C22B5B5E930037830D /* NutrionalInfo.swift in Sources */,
 				61A1C6E02B5B67870037830D /* NutrionalLabel.swift in Sources */,
 				61A1C6D82B5B5F3C0037830D /* Percentage.swift in Sources */,
+				61A1C6E62B5B68090037830D /* Gram.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +234,7 @@
 				61A1C6D02B5B5F120037830D /* ArithmeticTests.swift in Sources */,
 				61A1C6E12B5B67870037830D /* NutrionalLabel.swift in Sources */,
 				61A1C6D92B5B5F3C0037830D /* Percentage.swift in Sources */,
+				61A1C6E72B5B68090037830D /* Gram.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
