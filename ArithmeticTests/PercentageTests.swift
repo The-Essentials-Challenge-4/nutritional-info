@@ -42,6 +42,17 @@ final class PercentageTests: XCTestCase {
         XCTAssertEqual(expected, actual, message)
     }
 
+    func testMinus() {
+        let numA = Int.random(in: 1 ... 100)
+        let numB = Int.random(in: 1 ..< numA)
+        let minuend = Percentage(numA)
+        let subtrahend = Percentage(numB)
+        let expected = Percentage(numA - numB)
+        let actual = minuend - subtrahend
+        let message = "\(minuend) - \(subtrahend) should be \(expected)"
+        XCTAssertEqual(expected, actual, message)
+    }
+
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
