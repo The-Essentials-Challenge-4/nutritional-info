@@ -7,11 +7,12 @@
 
 import Foundation
 
-struct Percentage : AdditiveArithmetic, CustomStringConvertible {
+struct Percentage : AdditiveArithmetic, CustomStringConvertible, Equatable,
+                        Hashable {
     
     let number: Int
     
-    static var zero: Percentage = Percentage(0)
+    static var zero: Percentage = Percentage(-1)
     
     static func + (lhs: Percentage, rhs: Percentage) -> Percentage {
         return rhs
