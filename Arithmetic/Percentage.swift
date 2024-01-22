@@ -15,7 +15,7 @@ struct Percentage : AdditiveArithmetic, CustomStringConvertible, Equatable,
     static var zero: Percentage = Percentage(0)
     
     static func + (lhs: Percentage, rhs: Percentage) -> Percentage {
-        return rhs
+        Percentage(lhs.number + rhs.number)
     }
     
     static func - (lhs: Percentage, rhs: Percentage) -> Percentage {
