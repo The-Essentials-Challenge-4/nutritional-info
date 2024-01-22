@@ -7,9 +7,19 @@
 
 import Foundation
 
-struct Percentage : CustomStringConvertible {
+struct Percentage : AdditiveArithmetic, CustomStringConvertible {
     
     let number: Int
+    
+    static var zero: Percentage = Percentage(0)
+    
+    static func + (lhs: Percentage, rhs: Percentage) -> Percentage {
+        return rhs
+    }
+    
+    static func - (lhs: Percentage, rhs: Percentage) -> Percentage {
+        return lhs
+    }
     
     var description: String {
         "\(self.number)%"
