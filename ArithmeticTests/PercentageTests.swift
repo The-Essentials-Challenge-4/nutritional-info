@@ -24,6 +24,22 @@ final class PercentageTests: XCTestCase {
         let actual = percentage.description
         XCTAssertEqual(expected, actual)
     }
+    
+    func testZero() {
+        let expected = Percentage(0)
+        let actual = Percentage.zero
+        XCTAssertEqual(expected, actual)
+    }
+    
+    func testPlus() {
+        let numA = Int.random(in: 1 ... 50)
+        let numB = Int.random(in: 1 ... 50)
+        let addendA = Percentage(numA)
+        let addendB = Percentage(numB)
+        let expected = Percentage(numA + numB)
+        let actual = addendA + addendB
+        XCTAssertEqual(expected, actual)
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
