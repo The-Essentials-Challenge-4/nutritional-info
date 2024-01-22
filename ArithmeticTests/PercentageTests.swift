@@ -38,7 +38,8 @@ final class PercentageTests: XCTestCase {
         let addendB = Percentage(numB)
         let expected = Percentage(numA + numB)
         let actual = addendA + addendB
-        XCTAssertEqual(expected, actual)
+        let message = "\(addendA) + \(addendB) should be \(expected)"
+        XCTAssertEqual(expected, actual, message)
     }
 
     func testPerformanceExample() throws {
