@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Percentage : AdditiveArithmetic, CustomStringConvertible, Equatable,
-                        Hashable {
+struct Percentage : AdditiveArithmetic, Comparable, CustomStringConvertible,
+                    Equatable, Hashable {
     
     let number: Int
     
@@ -22,6 +22,10 @@ struct Percentage : AdditiveArithmetic, CustomStringConvertible, Equatable,
         Percentage(lhs.number - rhs.number)
     }
     
+    // TODO: Write tests for this
+    static func < (lhs: Percentage, rhs: Percentage) -> Bool {
+        return true
+    }
     var description: String {
         "\(self.number)%"
     }
