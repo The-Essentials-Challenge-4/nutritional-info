@@ -26,6 +26,12 @@ struct Percentage : AdditiveArithmetic, Comparable, CustomStringConvertible,
     static func < (lhs: Percentage, rhs: Percentage) -> Bool {
         return true
     }
+    
+    // TODO: Write tests for this
+    static func > (lhs: Percentage, rhs: Percentage) -> Bool {
+        return true
+    }
+    
     var description: String {
         "\(self.number)%"
     }
