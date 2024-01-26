@@ -11,9 +11,8 @@ struct Calorie : CustomStringConvertible, Equatable {
     
     let number: Int
     
-    // TODO: Write tests for this
     var description: String {
-        "SORRY, NOT IMPLEMENTED YET"
+        "\(self.number)"
     }
     
     init(_ amount: Int) {
