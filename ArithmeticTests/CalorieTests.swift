@@ -24,6 +24,12 @@ final class CalorieTests: XCTestCase {
         let actual = calories.description
         XCTAssertEqual(expected, actual)
     }
+    
+    func testZero() {
+        let expected = Calorie(0)
+        let actual = Calorie.zero
+        XCTAssertEqual(expected, actual)
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
