@@ -52,6 +52,25 @@ final class PercentageTests: XCTestCase {
         let message = "\(minuend) - \(subtrahend) should be \(expected)"
         XCTAssertEqual(expected, actual, message)
     }
+    
+    func testCompare() {
+        let num = Int.random(in: 2 ... 99)
+        let percentage = Percentage(num)
+        for lower in 0 ..< num {
+            let lesserPercentage = Percentage(lower)
+            let message
+            = "Percentage \(lesserPercentage) should be less than \(percentage)"
+            XCTAssertTrue(lesserPercentage < percentage, message)
+            XCTAssertFalse(lesserPercentage > percentage, message)
+        }
+        for higher in (num + 1) ... 100 {
+            let higherPercentage = Percentage(higher)
+            let message
+            = "Percentage \(higherPercentage) should be more than \(percentage)"
+            XCTAssertTrue(higherPercentage > percentage, message)
+            XCTAssertFalse(higherPercentage < percentage, message)
+        }
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
