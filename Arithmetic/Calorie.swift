@@ -7,9 +7,22 @@
 
 import Foundation
 
-struct Calorie : CustomStringConvertible, Equatable {
+struct Calorie : AdditiveArithmetic, CustomStringConvertible, Equatable {
     
     let number: Int
+    
+    // TODO: Write tests for this
+    static var zero: Calorie = Calorie(-1)
+    
+    // TODO: Write tests for this
+    static func + (lhs: Calorie, rhs: Calorie) -> Calorie {
+        rhs
+    }
+    
+    // TODO: Write tests for this
+    static func - (lhs: Calorie, rhs: Calorie) -> Calorie {
+        lhs
+    }
     
     var description: String {
         "\(self.number)"
