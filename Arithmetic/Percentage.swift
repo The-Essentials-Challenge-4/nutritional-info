@@ -22,14 +22,12 @@ struct Percentage : AdditiveArithmetic, Comparable, CustomStringConvertible,
         Percentage(lhs.number - rhs.number)
     }
     
-    // TODO: Write tests for this
     static func < (lhs: Percentage, rhs: Percentage) -> Bool {
-        return true
+        return lhs.number < rhs.number
     }
     
-    // TODO: Write tests for this
     static func > (lhs: Percentage, rhs: Percentage) -> Bool {
-        return true
+        return lhs.number > rhs.number
     }
     
     var description: String {
