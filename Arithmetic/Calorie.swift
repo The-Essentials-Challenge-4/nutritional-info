@@ -17,9 +17,8 @@ struct Calorie : AdditiveArithmetic, CustomStringConvertible, Equatable {
         Calorie(lhs.number + rhs.number)
     }
     
-    // TODO: Write tests for this
     static func - (lhs: Calorie, rhs: Calorie) -> Calorie {
-        lhs
+        Calorie(lhs.number - rhs.number)
     }
     
     var description: String {
