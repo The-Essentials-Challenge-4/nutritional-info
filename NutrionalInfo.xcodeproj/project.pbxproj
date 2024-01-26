@@ -21,6 +21,9 @@
 		61A1C6E62B5B68090037830D /* Gram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A1C6E52B5B68090037830D /* Gram.swift */; };
 		61A1C6E72B5B68090037830D /* Gram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A1C6E52B5B68090037830D /* Gram.swift */; };
 		61A1C6E92B5C66B00037830D /* PercentageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A1C6E82B5C66B00037830D /* PercentageTests.swift */; };
+		61EDCAA22B64455D00DBFF51 /* Calorie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EDCAA12B64455D00DBFF51 /* Calorie.swift */; };
+		61EDCAA32B64455D00DBFF51 /* Calorie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EDCAA12B64455D00DBFF51 /* Calorie.swift */; };
+		61EDCAA52B6452C000DBFF51 /* CalorieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EDCAA42B6452C000DBFF51 /* CalorieTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,8 @@
 		61A1C6E22B5B67B70037830D /* NutrionalLabelField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrionalLabelField.swift; sourceTree = "<group>"; };
 		61A1C6E52B5B68090037830D /* Gram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gram.swift; sourceTree = "<group>"; };
 		61A1C6E82B5C66B00037830D /* PercentageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageTests.swift; sourceTree = "<group>"; };
+		61EDCAA12B64455D00DBFF51 /* Calorie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calorie.swift; sourceTree = "<group>"; };
+		61EDCAA42B6452C000DBFF51 /* CalorieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,7 @@
 			children = (
 				61A1C6D72B5B5F3C0037830D /* Percentage.swift */,
 				61A1C6E52B5B68090037830D /* Gram.swift */,
+				61EDCAA12B64455D00DBFF51 /* Calorie.swift */,
 			);
 			path = Arithmetic;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			children = (
 				61A1C6CF2B5B5F120037830D /* ArithmeticTests.swift */,
 				61A1C6E82B5C66B00037830D /* PercentageTests.swift */,
+				61EDCAA42B6452C000DBFF51 /* CalorieTests.swift */,
 			);
 			path = ArithmeticTests;
 			sourceTree = "<group>";
@@ -224,6 +231,7 @@
 				61A1C6E32B5B67B70037830D /* NutrionalLabelField.swift in Sources */,
 				61A1C6C22B5B5E930037830D /* NutrionalInfo.swift in Sources */,
 				61A1C6E02B5B67870037830D /* NutrionalLabel.swift in Sources */,
+				61EDCAA22B64455D00DBFF51 /* Calorie.swift in Sources */,
 				61A1C6D82B5B5F3C0037830D /* Percentage.swift in Sources */,
 				61A1C6E62B5B68090037830D /* Gram.swift in Sources */,
 			);
@@ -239,6 +247,8 @@
 				61A1C6D92B5B5F3C0037830D /* Percentage.swift in Sources */,
 				61A1C6E72B5B68090037830D /* Gram.swift in Sources */,
 				61A1C6E92B5C66B00037830D /* PercentageTests.swift in Sources */,
+				61EDCAA32B64455D00DBFF51 /* Calorie.swift in Sources */,
+				61EDCAA52B6452C000DBFF51 /* CalorieTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
