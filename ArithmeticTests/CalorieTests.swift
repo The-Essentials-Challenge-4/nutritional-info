@@ -42,6 +42,18 @@ final class CalorieTests: XCTestCase {
         = "\(addendA) calories + \(addendB) calories = \(expected) calories?"
         XCTAssertEqual(expected, actual, message)
     }
+    
+    func testMinus() {
+        let numA = Int.random(in: 1000 ... 2000)
+        let numB = Int.random(in: 1 ... 1000)
+        let minuend = Calorie(numA)
+        let subtrahend = Calorie(numB)
+        let expected = Calorie(numA - numB)
+        let actual = minuend - subtrahend
+        let message
+        = "\(minuend) calories - \(subtrahend) calories = \(expected) calories?"
+        XCTAssertEqual(expected, actual, message)
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
